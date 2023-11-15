@@ -12,8 +12,9 @@ const ListeArticles = () => {
     let articleCard = `
       <a href="/article/?id=${article.id}">
         <div>
-          <h5>${article.author}</h5>
+          <h5>${article.title}</h5>
           <p>${article.content}</p>
+          <p>${article.author}</p>
         </div>
       </a>
     `;
